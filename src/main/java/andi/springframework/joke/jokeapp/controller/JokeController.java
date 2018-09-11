@@ -13,6 +13,7 @@ public class JokeController {
 
     @Autowired
     public JokeController(JokeService jokeService) {
+
         this.jokeService = jokeService;
     }
 
